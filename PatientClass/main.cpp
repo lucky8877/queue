@@ -9,5 +9,6 @@ int main(){
     };
     while (true){
         doc.TakePatient(queue.GetNext());
+        auto p = queue.GetNext();
     };
 };
