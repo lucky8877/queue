@@ -14,5 +14,5 @@ class PatientQueue{
         PatientQueue();
         ~PatientQueue();
         Patient* GetNext();
-        void AddPatient(Patient* p);
+        void AddPatient(Patient *p);
 };
