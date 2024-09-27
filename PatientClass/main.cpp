@@ -13,7 +13,7 @@ int main(){
     bornDate.day = 2;
     bornDate.month = 3;
     bornDate.year = 2005; 
-    Patient a("Кондаков Владислав Сергеевич", "хуй", bornDate);
+    Patient a("Кондаков Владислав Сергеевич", "asda", bornDate);
     a.PatientInfo();
 
     Doctor d;
